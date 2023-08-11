@@ -3,6 +3,7 @@ class Tile:
         self.bomb = bomb # bool to set bombs
         self.number = None
         self.revealed = False
+        self.flagged = False
     def set_number(self, number):
         self.number = number
     def __str__(self):
